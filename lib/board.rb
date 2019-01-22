@@ -1,6 +1,15 @@
 # Define the variable board below.
-row = [" "," "," "]
+rrow = [" ", " ", " "]
+
+# Position 1: Left
 row[0]
+
+# Position 2: Middle
 row[1]
+
+# Position 3: Right
 row[2]
-row[1]="X"
+
+# Move X to the Position 2, Middle
+row[1] = "X"
+row #=> [" ", "X", " "]
